@@ -42,7 +42,6 @@ fun RegistrasiScreen(modifier: Modifier = Modifier) {
         verticalArrangement = Arrangement.Top,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // Bagian identitas statis
         Text(text = "235150407111003", style = MaterialTheme.typography.titleMedium)
         Text(text = "Iftina Dewi Ansia Damayanti", style = MaterialTheme.typography.bodyMedium)
         Spacer(modifier = Modifier.height(16.dp))
