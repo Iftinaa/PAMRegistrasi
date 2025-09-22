@@ -43,7 +43,7 @@ fun RegistrasiScreen(modifier: Modifier = Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(text = "235150407111003", style = MaterialTheme.typography.titleMedium)
-        Text(text = "Iftina Dewi Ansia Damayanti", style = MaterialTheme.typography.bodyMedium)
+        Text(text = "Iftina Dewi Anisa Damayanti", style = MaterialTheme.typography.bodyMedium)
         Spacer(modifier = Modifier.height(16.dp))
 
         // Form Registrasi
@@ -76,7 +76,9 @@ fun RegistrasiScreen(modifier: Modifier = Modifier) {
         )
 
         Button(
-            onClick = { /* Aksi klik tombol */ },
+            onClick = {
+
+            },
             modifier = Modifier.fillMaxWidth()
         ) {
             Text(text = "DAFTAR")
